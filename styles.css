@@ -1,0 +1,38 @@
+
+/* Type (Element) Selector */
+li {
+    /* color refers to text */
+    color:chartreuse;
+}
+
+/* Class Selector */
+.title {
+    color:red;
+}
+
+/* Class Selector With Multiple classes */
+.chama-ting {
+    color:blueviolet;
+}
+
+.banner-2 {
+    color:tomato;
+}
+
+/* ID Selector */
+/* Used on only one element, not as common as class, use sparingly it at all */
+#test {
+    background-color:aqua;
+}
+
+/* Grouping Selectors */
+/* For shared styles */
+.chama-ting,
+.banner-2 {
+    background-color: burlywood;
+}
+
+/* Chaining selectors */
+.subsection.header {
+    color:blue;
+}
